@@ -1,0 +1,14 @@
+@media only screen and (max-width: 576px) {
+    .title h1{
+        font-size: 18px;
+    }
+    .form{
+        width: 80%;
+    }
+    .welcome p, .welcome i, .welcome span {
+        font-size: 27px;
+    }
+    .username p, .password p{
+        color: white;
+    }
+}

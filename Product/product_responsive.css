@@ -1,0 +1,101 @@
+@media only screen and (max-width: 576px) {
+    .body{
+        display: block;
+    }
+    .flex_category{
+        flex-wrap: wrap;
+    }
+    #menu_responsive{
+        display: block;
+    }
+    .navbar .logo span{
+        font-size: 22px;
+    }
+    .navbar .logo{
+        font-size: 0;
+    }
+    .menu input, .menu a{
+        display: none;
+    }
+    .menu {
+        margin-left: 40%;
+        margin-top: 20px;
+    }
+    .menu i{
+        margin-left: 20px;
+    }
+    .sub_nav{
+        display: none;
+    }
+    .circle, .circle2{
+        display: none;
+    }
+    .content .category img{
+        width: 45px;
+        height: 45px;
+    }
+    .content .category{
+        width: 92px;
+        margin-right: 13px;
+        margin-bottom: 10px;
+    }
+    .content {width: 100%;}
+    .part_2 .item {width: 135px;height: 200px;}
+    .part_2 .item img{
+        width: 100px;
+        height: 100px;
+        transform: translate(17%, -100%);
+        filter: drop-shadow(9px 18px 7px black);
+    }
+    .part_2 .item p{font-size: 8px;}
+    .part_2 .goToDetail{font-size: 14px;}
+    .part_2 .item .image {height: 20px;}
+    .part_2 .item span{font-size: 24px;}
+    .part_2 .item p:first-child{font-size: 0;}
+    .part_2 .item #favorite, .part_2 .item #add_to_cart{
+        
+        transform: translate(5px, -5px);
+    }
+    .part_2 .item #add_to_cart{
+        padding: 6px 10px;
+    }
+    .part_2 .item #favorite{
+        padding: 6px 8px;
+    }
+    .container_item{
+        padding: 0 10px;
+    }
+    #new img, #hot img {
+        width: 40px;
+        height: 40px;
+        transform: translate(0, -60px); 
+    }
+    .part_2 .item:hover img{
+        width: 125px;
+        height: 125px;
+        transform: translate(18%, -90%); 
+    }
+    .topping{
+        width: 85%;
+    }
+    .footer{
+        padding-bottom: 200px;
+    }
+    .text_footer {
+        display: block;
+        font-family: 'Nu';
+    }
+    .text_footer ul {
+        width: 80%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text_footer i {
+        margin-right: 12px;
+    }
+    .discount .pagination{
+        left: 125px;
+    }
+}

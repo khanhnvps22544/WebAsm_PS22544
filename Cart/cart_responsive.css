@@ -1,0 +1,60 @@
+@media only screen and (max-width: 576px) {
+    .circle, .circle2{
+        display: none;
+    }
+    .container{
+        padding: 0 40px;
+    }
+    .sub_nav{
+        display: none;
+    }
+    .center{
+        width: 95%;
+    }
+    .right{
+        width: 80%;
+        margin-left: 40px;
+    }
+    .center .cart_item{
+        width: 80%;
+    }
+    #remove{
+        margin-left: 0px;
+    }
+    .menu input{
+        display: none;
+    }
+    .cart_item span{
+        font-size: 11px;
+        margin-left: 5px;
+    }
+    .cart_item div{
+        margin-top: 0px;
+    }
+    .cart_item div:nth-child(2){
+        margin-left: 10px;
+    }
+    .text_discount input{
+        width: 90%;
+    }
+    .payment_method input{
+        width: 20%;
+    }
+    .footer{
+        padding-bottom: 300px;
+    }
+    .text_footer {
+        display: block;
+        font-family: 'Nu';
+    }
+    .text_footer ul {
+        width: 80%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text_footer i {
+        margin-right: 12px;
+    }
+}
