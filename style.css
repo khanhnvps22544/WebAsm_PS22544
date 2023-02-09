@@ -409,9 +409,11 @@ section {
     z-index: -1;
 }
 .part_4 .all{
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: auto;
 }
 .part_4 .all .type a{
     font-size: 25px;
